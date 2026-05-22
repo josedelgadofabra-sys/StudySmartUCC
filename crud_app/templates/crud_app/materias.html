@@ -1,0 +1,143 @@
+{% extends 'crud_app/base.html' %}
+{% block content %}
+
+<div class="subjects-wrapper">
+
+    <!-- Header -->
+
+    <div class="subjects-header">
+        <div class="subjects-icon">📚</div>
+        <div>
+            <h1>Materias</h1>
+            <p>Gestiona tu ruta académica universitaria</p>
+        </div>
+    </div>
+
+    <!-- filtros -->
+
+    <div class="filter-card">
+
+        <form method="POST">
+            {% csrf_token %}
+            <input type="hidden" name="action" value="filtrar">
+
+            <div class="filter-grid">
+
+                <div>
+                    <label>Carrera</label>
+                    <select name="carrera">
+                        {% for val,nombre in carreras %}
+                        <option value="{{ val }}"
+                        {% if carrera_sel == val %}selected{% endif %}>
+                            {{ nombre }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <div>
+                    <label>Semestre</label>
+                    <select name="semestre">
+                        {% for s in semestres %}
+                        <option value="{{ s }}"
+                        {% if semestre_sel == s %}selected{% endif %}>
+                            Semestre {{ s }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </div>
+
+                <button class="apply-btn">
+                    Aplicar
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+    <!-- catálogo -->
+
+    <h2 class="section-title-m">Catálogo académico</h2>
+
+    <div class="subjects-grid">
+
+        {% for materia in materias_semestre %}
+
+        <div class="subject-card">
+
+            <div class="subject-top">
+                <span>{{ materia.codigo }}</span>
+                <small>Sem {{ materia.semestre }}</small>
+            </div>
+
+            <h3>{{ materia.nombre }}</h3>
+
+            {% if materia.id in mis_bases_ids %}
+
+                <button class="added-btn" disabled>
+                    ✓ Agregada
+                </button>
+
+            {% else %}
+
+                <form method="POST">
+                    {% csrf_token %}
+                    <input type="hidden"
+                           name="base_id"
+                           value="{{ materia.id }}">
+
+                    <button class="add-btn">
+                        + Agregar
+                    </button>
+                </form>
+
+            {% endif %}
+
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+    <!-- MIS MATERIAS -->
+
+    <h2 class="section-title-m mt-5">Mis materias</h2>
+
+    <div class="subjects-grid">
+
+        {% for materia in mis_materias %}
+
+        <div class="subject-card mine">
+
+            <div class="subject-top">
+                <span>{{ materia.codigo }}</span>
+                <small>Sem {{ materia.semestre }}</small>
+            </div>
+
+            <h3>{{ materia.nombre }}</h3>
+
+            <form method="POST"
+                  action="{% url 'eliminar_materia' materia.pk %}">
+                {% csrf_token %}
+                <button class="delete-btn">
+                    🗑 Eliminar
+                </button>
+            </form>
+
+        </div>
+
+        {% empty %}
+
+        <div class="empty-subjects">
+            No has agregado materias aún
+        </div>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+{% endblock %}

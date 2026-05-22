@@ -1,0 +1,174 @@
+{% extends 'crud_app/base.html' %}
+{% block content %}
+
+<div class="container py-4">
+
+<h2 class="fw-bold mb-4" id="mesActual"></h2>
+
+<div class="row">
+
+<!-- tareas -->
+
+<div class="col-lg-4">
+
+<div class="card p-4">
+<h5>Tareas</h5>
+
+{% for item in plan %}
+<div class="task-item priority-{{ item.tarea.prioridad }}"
+     draggable="true"
+     data-id="{{ item.tarea.id }}"
+     data-fecha="{{ item.tarea.fecha_programada|date:'Y-m-d' }}">
+
+    <strong>{{ item.tarea.titulo }}</strong>
+
+    <small>
+        {{ item.tarea.materia.nombre }}
+    </small>
+
+</div>
+{% endfor %}
+
+</div>
+</div>
+
+<!-- calendario -->
+
+<div class="col-lg-8">
+
+<div class="calendar-grid" id="calendarGrid"></div>
+
+</div>
+
+</div>
+</div>
+
+<script>
+
+const meses = [
+"Enero","Febrero","Marzo","Abril","Mayo","Junio",
+"Julio","Agosto","Septiembre","Octubre","Noviembre","Diciembre"
+];
+
+const hoy = new Date();
+
+const mes = hoy.getMonth();
+const año = hoy.getFullYear();
+
+document.getElementById("mesActual").innerHTML =
+`📅 ${meses[mes]} ${año}`;
+
+const primerDia = new Date(año, mes, 1).getDay();
+const totalDias = new Date(año, mes + 1, 0).getDate();
+
+const calendar = document.getElementById("calendarGrid");
+
+const nombresDias = [
+"Dom","Lun","Mar","Mié","Jue","Vie","Sáb"
+];
+
+nombresDias.forEach(d=>{
+let div=document.createElement("div");
+div.className="calendar-header";
+div.innerHTML=d;
+calendar.appendChild(div);
+});
+
+for(let i=0;i<primerDia;i++){
+let empty=document.createElement("div");
+calendar.appendChild(empty);
+}
+
+for(let dia=1; dia<=totalDias; dia++){
+
+let box=document.createElement("div");
+
+box.className="calendar-day";
+
+box.dataset.day=dia;
+
+box.innerHTML=`<strong>${dia}</strong>`;
+
+box.ondragover=allowDrop;
+box.ondrop=drop;
+
+calendar.appendChild(box);
+}
+
+function allowDrop(ev){
+ev.preventDefault();
+}
+
+document.querySelectorAll('.task-item').forEach(task=>{
+task.addEventListener('dragstart',e=>{
+e.dataTransfer.setData("task",task.dataset.id);
+});
+});
+
+function drop(ev){
+
+    ev.preventDefault();
+
+    let id = ev.dataTransfer.getData("task");
+
+    let task = document.querySelector(
+        `[data-id="${id}"]`
+    );
+
+    ev.currentTarget.appendChild(task);
+
+    let dia = ev.currentTarget.dataset.day;
+
+    let fecha =
+        `${año}-${String(mes+1).padStart(2,'0')}-${String(dia).padStart(2,'0')}`;
+
+    fetch("{% url 'mover_tarea' %}",{
+
+        method:"POST",
+
+        headers:{
+            "Content-Type":"application/x-www-form-urlencoded",
+            "X-CSRFToken":"{{ csrf_token }}"
+        },
+
+        body:`id=${id}&fecha=${fecha}`
+
+    })
+    .then(res=>res.json())
+    .then(data=>{
+        console.log(data);
+    });
+
+}
+
+window.onload = ()=>{
+
+document.querySelectorAll('.task-item')
+.forEach(task=>{
+
+let fecha = task.dataset.fecha;
+
+if(fecha){
+
+let dia = parseInt(
+fecha.split('-')[2]
+);
+
+let box =
+document.querySelector(
+`[data-day='${dia}']`
+);
+
+if(box){
+box.appendChild(task);
+}
+
+}
+
+});
+
+}
+
+</script>
+
+{% endblock %}

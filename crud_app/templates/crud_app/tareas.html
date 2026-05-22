@@ -1,0 +1,145 @@
+{% extends 'crud_app/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="tasks-wrapper">
+
+    <!-- HEADER -->
+
+    <div class="tasks-header">
+
+        <div class="tasks-icon">✅</div>
+
+        <div>
+            <h1>Tareas</h1>
+            <p>Crea y gestiona todas tus tareas académicas</p>
+        </div>
+
+    </div>
+
+    <div class="tasks-grid">
+
+        <!-- FORM -->
+
+        <div class="task-form-card">
+
+            <h3>Nueva tarea</h3>
+
+            <form method="POST">
+                {% csrf_token %}
+
+                <label>📖 Materia</label>
+                {{ form.materia }}
+
+                <label>📝 Título</label>
+                {{ form.titulo }}
+
+                <label>📄 Descripción</label>
+                {{ form.descripcion }}
+
+                <label>🚩 Prioridad</label>
+                {{ form.prioridad }}
+
+                <label>⏱ Horas estimadas</label>
+                {{ form.horas_estimadas }}
+
+                <button class="save-btn">
+                    💾 Guardar tarea
+                </button>
+
+            </form>
+
+        </div>
+
+        <!-- LISTA -->
+
+        <div class="task-list-card">
+
+            <div class="list-header">
+                <h3>📋 Mis tareas</h3>
+                <span>{{ tareas|length }} TOTAL</span>
+            </div>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>TAREA</th>
+                        <th>MATERIA</th>
+                        <th>PRIORIDAD</th>
+                        <th>ESTADO</th>
+                        <th>ACCIONES</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+
+                    {% for tarea in tareas %}
+                    <tr>
+
+                        <td>
+                            <strong>{{ tarea.titulo }}</strong><br>
+                            <small>{{ tarea.descripcion }}</small>
+                        </td>
+
+                        <td>
+                            <span class="materia-pill">
+                                ● {{ tarea.materia.nombre }}
+                            </span>
+                        </td>
+
+                        <td>
+                            <span class="priority {{ tarea.prioridad }}">
+                                {{ tarea.get_prioridad_display }}
+                            </span>
+                        </td>
+
+                        <td>
+                            <span class="estado {{ tarea.estado }}">
+                                {{ tarea.get_estado_display }}
+                            </span>
+                        </td>
+
+                        <td>
+
+                            <a href="{% url 'editar_tarea' tarea.pk %}" class="icon-btn">
+                                ✏️
+                            </a>
+
+                            <a href="{% url 'completar_tarea' tarea.pk %}" class="icon-btn green">
+                                ✅
+                            </a>
+
+                            <form method="POST"
+                                  action="{% url 'eliminar_tarea' tarea.pk %}"
+                                  style="display:inline;">
+                                {% csrf_token %}
+                                <button class="icon-btn red">
+                                    🗑️
+                                </button>
+                            </form>
+
+                        </td>
+
+                    </tr>
+                    {% empty %}
+
+                    <tr>
+                        <td colspan="5" class="empty">
+                            No tienes tareas aún
+                        </td>
+                    </tr>
+
+                    {% endfor %}
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

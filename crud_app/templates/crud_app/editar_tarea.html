@@ -1,0 +1,75 @@
+{% extends 'crud_app/base.html' %}
+{% block content %}
+
+<div class="edit-wrapper">
+
+    <!-- Header -->
+
+    <div class="edit-header">
+
+        <div class="edit-icon">✏️</div>
+
+        <div>
+            <h1>Editar tarea</h1>
+            <p>Actualiza y reorganiza tu progreso académico</p>
+        </div>
+
+    </div>
+
+    <!-- Card -->
+
+    <div class="edit-card">
+
+        <form method="POST">
+
+            {% csrf_token %}
+
+            <div class="form-group">
+                <label>📖 Materia</label>
+                {{ form.materia }}
+            </div>
+
+            <div class="form-group">
+                <label>📝 Título</label>
+                {{ form.titulo }}
+            </div>
+
+            <div class="form-group">
+                <label>📄 Descripción</label>
+                {{ form.descripcion }}
+            </div>
+
+            <div class="form-group">
+                <label>🎯 Prioridad</label>
+                {{ form.prioridad }}
+            </div>
+
+            <div class="form-group">
+                <label>📅 Fecha programada</label>
+                {{ form.fecha_programada }}
+            </div>
+
+            <div class="form-group">
+                <label>⏱ Horas estimadas</label>
+                {{ form.horas_estimadas }}
+            </div>
+
+            <div class="edit-actions">
+
+                <button type="submit" class="save-btn">
+                    💾 Guardar cambios
+                </button>
+
+                <a href="{% url 'tareas' %}" class="cancel-btn">
+                    Cancelar
+                </a>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+{% endblock %}

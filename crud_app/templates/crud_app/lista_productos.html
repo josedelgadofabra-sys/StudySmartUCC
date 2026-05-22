@@ -1,0 +1,116 @@
+{% extends 'crud_app/base.html' %}
+{% block content %}
+
+<div class="dashboard-wrapper">
+
+    <!-- Header -->
+
+    <div class="dashboard-header">
+
+        <div class="welcome-box">
+            <h1>Hola, {{ user.username }} 👋</h1>
+            <p>Bienvenido a tu panel académico inteligente</p>
+        </div>
+
+        <div class="streak-box">
+            🔥 {{ racha }} días
+        </div>
+
+    </div>
+
+    <!-- métricas -->
+
+    <div class="metrics-grid">
+
+        <div class="metric-card green">
+            <h2>{{ total_tareas }}</h2>
+            <span>Tareas totales</span>
+        </div>
+
+        <div class="metric-card blue">
+            <h2>{{ tareas_completadas }}</h2>
+            <span>Completadas</span>
+        </div>
+
+        <div class="metric-card orange">
+            <h2>{{ tareas_pendientes }}</h2>
+            <span>Pendientes</span>
+        </div>
+
+        <div class="metric-card purple">
+            <h2>{{ horas_estudiadas }}h</h2>
+            <span>Horas estudio</span>
+        </div>
+
+    </div>
+
+    <!-- progreso -->
+
+    <div class="progress-section">
+
+        <div class="progress-card">
+
+            <h3>Progreso académico</h3>
+
+            <div class="progress-bar-big">
+                <div class="progress-fill-big"
+                     style="width:{{ cumplimiento }}%">
+                </div>
+            </div>
+
+            <span>{{ cumplimiento }}% completado</span>
+
+        </div>
+
+    </div>
+
+    <!-- contenido -->
+
+    <div class="dashboard-grid">
+
+        <!-- tareas -->
+
+        <div class="dashboard-card">
+
+            <h3>📌 Próximas tareas</h3>
+
+            {% for tarea in tareas %}
+
+            <div class="task-item">
+
+                <div>
+                    <strong>{{ tarea.titulo }}</strong>
+                    <small>{{ tarea.materia.nombre }}</small>
+                </div>
+
+                <span class="status {{ tarea.estado }}">
+                    {{ tarea.get_estado_display }}
+                </span>
+
+            </div>
+
+            {% empty %}
+            <p>No tienes tareas pendientes</p>
+            {% endfor %}
+
+        </div>
+
+        <!-- recomendaciones -->
+
+        <div class="dashboard-card">
+
+            <h3>🧠 Recomendaciones</h3>
+
+            {% for r in recomendaciones %}
+            <div class="recommend-item">
+                {{ r }}
+            </div>
+            {% endfor %}
+
+        </div>
+
+    </div>
+
+</div>
+
+{% endblock %}

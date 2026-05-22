@@ -1,0 +1,1902 @@
+[
+  {
+    "model": "crud_app.materiabase",
+    "pk": 111,
+    "fields": {
+      "codigo": "K8",
+      "nombre": "Filosofía e Historia de la Psicología",
+      "semestre": 1,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 112,
+    "fields": {
+      "codigo": "K9",
+      "nombre": "Psicobiología",
+      "semestre": 1,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 113,
+    "fields": {
+      "codigo": "A1DP",
+      "nombre": "Humanidades I",
+      "semestre": 1,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 114,
+    "fields": {
+      "codigo": "A9DP",
+      "nombre": "Inglés I",
+      "semestre": 1,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 115,
+    "fields": {
+      "codigo": "L1",
+      "nombre": "Problemas Sociales Globales",
+      "semestre": 1,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 116,
+    "fields": {
+      "codigo": "F6P",
+      "nombre": "Aspectos Psicológicos del Comportamiento Humano",
+      "semestre": 1,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 117,
+    "fields": {
+      "codigo": "L2",
+      "nombre": "Enfoque y Tendencias en Psicología Dinámica",
+      "semestre": 2,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 118,
+    "fields": {
+      "codigo": "L3",
+      "nombre": "Enfoque y Tendencias en Psicología Conductual",
+      "semestre": 2,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 119,
+    "fields": {
+      "codigo": "L4",
+      "nombre": "Estadística Descriptiva e Inferencial",
+      "semestre": 2,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 120,
+    "fields": {
+      "codigo": "L5",
+      "nombre": "Procesos Psicológicos Básicos y Complejos",
+      "semestre": 2,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 121,
+    "fields": {
+      "codigo": "L6",
+      "nombre": "Neurociencia Cognitiva y del Comportamiento",
+      "semestre": 2,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 122,
+    "fields": {
+      "codigo": "A7DP",
+      "nombre": "Humanidades II",
+      "semestre": 2,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 123,
+    "fields": {
+      "codigo": "B6DP",
+      "nombre": "Inglés II",
+      "semestre": 2,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 124,
+    "fields": {
+      "codigo": "L7",
+      "nombre": "Psicología Diferencial",
+      "semestre": 3,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 125,
+    "fields": {
+      "codigo": "L8",
+      "nombre": "Enfoque y Tendencias en Psicología Social",
+      "semestre": 3,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 126,
+    "fields": {
+      "codigo": "L9",
+      "nombre": "Enfoque y Tendencias en Psicología Cognitiva",
+      "semestre": 3,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 127,
+    "fields": {
+      "codigo": "M1",
+      "nombre": "Enfoque y Tendencias en Psicología Sistémica",
+      "semestre": 3,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 128,
+    "fields": {
+      "codigo": "M2",
+      "nombre": "Medición y Evaluación de Procesos Psicológicos Básicos y Complejos",
+      "semestre": 3,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 129,
+    "fields": {
+      "codigo": "M3",
+      "nombre": "Humanidades III",
+      "semestre": 3,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 130,
+    "fields": {
+      "codigo": "C4DP",
+      "nombre": "Inglés III",
+      "semestre": 3,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 131,
+    "fields": {
+      "codigo": "M4",
+      "nombre": "Psicopatología",
+      "semestre": 4,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 132,
+    "fields": {
+      "codigo": "M5",
+      "nombre": "Psicología del Desarrollo",
+      "semestre": 4,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 133,
+    "fields": {
+      "codigo": "M6",
+      "nombre": "Métodos de Investigación Cuantitativa",
+      "semestre": 4,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 134,
+    "fields": {
+      "codigo": "M7",
+      "nombre": "Evaluación Psicológica",
+      "semestre": 4,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 135,
+    "fields": {
+      "codigo": "M8",
+      "nombre": "Psicología de la Personalidad",
+      "semestre": 4,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 136,
+    "fields": {
+      "codigo": "C7DP",
+      "nombre": "Inglés IV",
+      "semestre": 4,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 137,
+    "fields": {
+      "codigo": "M9",
+      "nombre": "Psicología Clínica",
+      "semestre": 5,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 138,
+    "fields": {
+      "codigo": "N1",
+      "nombre": "Psicología Educativa",
+      "semestre": 5,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 139,
+    "fields": {
+      "codigo": "N2",
+      "nombre": "Métodos de Investigación Cualitativa",
+      "semestre": 5,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 140,
+    "fields": {
+      "codigo": "N3",
+      "nombre": "Psicología Organizacional",
+      "semestre": 5,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 141,
+    "fields": {
+      "codigo": "N4",
+      "nombre": "Evaluación Neuropsicológica",
+      "semestre": 5,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 142,
+    "fields": {
+      "codigo": "D7DP",
+      "nombre": "Inglés V",
+      "semestre": 5,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 143,
+    "fields": {
+      "codigo": "N5",
+      "nombre": "Psicología Comunitaria",
+      "semestre": 6,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 144,
+    "fields": {
+      "codigo": "N6",
+      "nombre": "Psicología Jurídica",
+      "semestre": 6,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 145,
+    "fields": {
+      "codigo": "N7",
+      "nombre": "Intervención Clínica",
+      "semestre": 6,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 146,
+    "fields": {
+      "codigo": "N8",
+      "nombre": "Psicometría",
+      "semestre": 6,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 147,
+    "fields": {
+      "codigo": "N9",
+      "nombre": "Diseño y Gestión de Proyectos",
+      "semestre": 6,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 148,
+    "fields": {
+      "codigo": "E2DP",
+      "nombre": "Electiva I",
+      "semestre": 6,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 149,
+    "fields": {
+      "codigo": "O1",
+      "nombre": "Neuropsicología",
+      "semestre": 7,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 150,
+    "fields": {
+      "codigo": "O2",
+      "nombre": "Intervención Psicosocial",
+      "semestre": 7,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 151,
+    "fields": {
+      "codigo": "O3",
+      "nombre": "Psicología y Salud",
+      "semestre": 7,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 152,
+    "fields": {
+      "codigo": "O4",
+      "nombre": "Ética Profesional",
+      "semestre": 7,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 153,
+    "fields": {
+      "codigo": "O5",
+      "nombre": "Investigación Aplicada",
+      "semestre": 7,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 154,
+    "fields": {
+      "codigo": "E8DP",
+      "nombre": "Electiva II",
+      "semestre": 7,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 155,
+    "fields": {
+      "codigo": "O6",
+      "nombre": "Práctica Profesional",
+      "semestre": 8,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 156,
+    "fields": {
+      "codigo": "O7",
+      "nombre": "Trabajo de Grado",
+      "semestre": 8,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 157,
+    "fields": {
+      "codigo": "O8",
+      "nombre": "Consultorio Psicológico",
+      "semestre": 8,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 158,
+    "fields": {
+      "codigo": "F1DP",
+      "nombre": "Electiva III",
+      "semestre": 8,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 159,
+    "fields": {
+      "codigo": "O9",
+      "nombre": "Seminario de Profundización",
+      "semestre": 8,
+      "carrera": "psicologia"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 160,
+    "fields": {
+      "codigo": "A1DC",
+      "nombre": "Humanidades I",
+      "semestre": 1,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 161,
+    "fields": {
+      "codigo": "A9DC",
+      "nombre": "Inglés I",
+      "semestre": 1,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 162,
+    "fields": {
+      "codigo": "P1",
+      "nombre": "Derecho Empresarial",
+      "semestre": 1,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 163,
+    "fields": {
+      "codigo": "P2",
+      "nombre": "Estadística Empresarial",
+      "semestre": 1,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 164,
+    "fields": {
+      "codigo": "P3",
+      "nombre": "Razonamiento Cuantitativo",
+      "semestre": 1,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 165,
+    "fields": {
+      "codigo": "P4",
+      "nombre": "Sistema Contable Internacional",
+      "semestre": 1,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 166,
+    "fields": {
+      "codigo": "A7DC",
+      "nombre": "Humanidades II",
+      "semestre": 2,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 167,
+    "fields": {
+      "codigo": "B6DC",
+      "nombre": "Inglés II",
+      "semestre": 2,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 168,
+    "fields": {
+      "codigo": "P5",
+      "nombre": "Teoría de la Empresa",
+      "semestre": 2,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 169,
+    "fields": {
+      "codigo": "P6",
+      "nombre": "Contexto Digital de los Negocios",
+      "semestre": 2,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 170,
+    "fields": {
+      "codigo": "P7",
+      "nombre": "Agregados Económicos",
+      "semestre": 2,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 171,
+    "fields": {
+      "codigo": "P8",
+      "nombre": "Ciclos de la Información Financiera",
+      "semestre": 2,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 172,
+    "fields": {
+      "codigo": "C4DC",
+      "nombre": "Inglés III",
+      "semestre": 3,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 173,
+    "fields": {
+      "codigo": "P9",
+      "nombre": "Gestión de Riesgos de Ciberseguridad",
+      "semestre": 3,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 174,
+    "fields": {
+      "codigo": "Q1",
+      "nombre": "Reportes de Información Financiera",
+      "semestre": 3,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 175,
+    "fields": {
+      "codigo": "Q2",
+      "nombre": "Gestión Estratégica de Costos y Presupuestos",
+      "semestre": 3,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 176,
+    "fields": {
+      "codigo": "Q3",
+      "nombre": "Matemática Financiera",
+      "semestre": 3,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 177,
+    "fields": {
+      "codigo": "Q4",
+      "nombre": "Impuestos I",
+      "semestre": 3,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 178,
+    "fields": {
+      "codigo": "C7DC",
+      "nombre": "Inglés IV",
+      "semestre": 4,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 179,
+    "fields": {
+      "codigo": "Q5",
+      "nombre": "Sistemas de Información Gerencial",
+      "semestre": 4,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 180,
+    "fields": {
+      "codigo": "D4C",
+      "nombre": "Analítica de Datos",
+      "semestre": 4,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 181,
+    "fields": {
+      "codigo": "Q6",
+      "nombre": "Gestión Financiera",
+      "semestre": 4,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 182,
+    "fields": {
+      "codigo": "Q7",
+      "nombre": "Impuestos II",
+      "semestre": 4,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 183,
+    "fields": {
+      "codigo": "Q8",
+      "nombre": "Aseguramiento y Auditoría",
+      "semestre": 4,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 184,
+    "fields": {
+      "codigo": "D7DC",
+      "nombre": "Inglés V",
+      "semestre": 5,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 185,
+    "fields": {
+      "codigo": "Q9",
+      "nombre": "Finanzas Corporativas",
+      "semestre": 5,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 186,
+    "fields": {
+      "codigo": "R1",
+      "nombre": "Contabilidad Pública",
+      "semestre": 5,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 187,
+    "fields": {
+      "codigo": "R2",
+      "nombre": "Auditoría Financiera",
+      "semestre": 5,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 188,
+    "fields": {
+      "codigo": "R3",
+      "nombre": "Tributaria Empresarial",
+      "semestre": 5,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 189,
+    "fields": {
+      "codigo": "E2DC",
+      "nombre": "Electiva I",
+      "semestre": 5,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 190,
+    "fields": {
+      "codigo": "R4",
+      "nombre": "Revisoría Fiscal",
+      "semestre": 6,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 191,
+    "fields": {
+      "codigo": "R5",
+      "nombre": "Auditoría de Sistemas",
+      "semestre": 6,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 192,
+    "fields": {
+      "codigo": "R6",
+      "nombre": "Gerencia Estratégica",
+      "semestre": 6,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 193,
+    "fields": {
+      "codigo": "R7",
+      "nombre": "Formulación y Evaluación de Proyectos",
+      "semestre": 6,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 194,
+    "fields": {
+      "codigo": "R8",
+      "nombre": "Gestión Presupuestal",
+      "semestre": 6,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 195,
+    "fields": {
+      "codigo": "E8DC",
+      "nombre": "Electiva II",
+      "semestre": 6,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 196,
+    "fields": {
+      "codigo": "R9",
+      "nombre": "Normas Internacionales de Auditoría",
+      "semestre": 7,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 197,
+    "fields": {
+      "codigo": "S1",
+      "nombre": "Auditoría Forense",
+      "semestre": 7,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 198,
+    "fields": {
+      "codigo": "S2",
+      "nombre": "Consultoría Empresarial",
+      "semestre": 7,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 199,
+    "fields": {
+      "codigo": "S3",
+      "nombre": "Planeación Tributaria",
+      "semestre": 7,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 200,
+    "fields": {
+      "codigo": "S4",
+      "nombre": "Investigación Contable",
+      "semestre": 7,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 201,
+    "fields": {
+      "codigo": "S5",
+      "nombre": "Práctica Empresarial I",
+      "semestre": 7,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 202,
+    "fields": {
+      "codigo": "O4C",
+      "nombre": "Ética Profesional",
+      "semestre": 8,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 203,
+    "fields": {
+      "codigo": "S6",
+      "nombre": "Emprendimiento e Innovación",
+      "semestre": 8,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 204,
+    "fields": {
+      "codigo": "S7",
+      "nombre": "Seminario de Actualización Contable",
+      "semestre": 8,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 205,
+    "fields": {
+      "codigo": "S8",
+      "nombre": "Optativa",
+      "semestre": 8,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 206,
+    "fields": {
+      "codigo": "O7C",
+      "nombre": "Trabajo de Grado",
+      "semestre": 8,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 207,
+    "fields": {
+      "codigo": "S9",
+      "nombre": "Práctica Empresarial II",
+      "semestre": 8,
+      "carrera": "contaduria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 208,
+    "fields": {
+      "codigo": "A1DA",
+      "nombre": "Humanidades I",
+      "semestre": 1,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 209,
+    "fields": {
+      "codigo": "A9DA",
+      "nombre": "Inglés I",
+      "semestre": 1,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 210,
+    "fields": {
+      "codigo": "T1",
+      "nombre": "Fundamentos de Administración",
+      "semestre": 1,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 211,
+    "fields": {
+      "codigo": "T2",
+      "nombre": "Matemática Básica",
+      "semestre": 1,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 212,
+    "fields": {
+      "codigo": "T3",
+      "nombre": "Fundamentos de Economía",
+      "semestre": 1,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 213,
+    "fields": {
+      "codigo": "T4",
+      "nombre": "Competencias Comunicativas",
+      "semestre": 1,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 214,
+    "fields": {
+      "codigo": "A7DA",
+      "nombre": "Humanidades II",
+      "semestre": 2,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 215,
+    "fields": {
+      "codigo": "B6DA",
+      "nombre": "Inglés II",
+      "semestre": 2,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 216,
+    "fields": {
+      "codigo": "T5",
+      "nombre": "Microeconomía",
+      "semestre": 2,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 217,
+    "fields": {
+      "codigo": "T6",
+      "nombre": "Contabilidad Financiera",
+      "semestre": 2,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 218,
+    "fields": {
+      "codigo": "T7",
+      "nombre": "Estadística Descriptiva",
+      "semestre": 2,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 219,
+    "fields": {
+      "codigo": "T8",
+      "nombre": "Gestión Organizacional",
+      "semestre": 2,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 220,
+    "fields": {
+      "codigo": "C4DA",
+      "nombre": "Inglés III",
+      "semestre": 3,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 221,
+    "fields": {
+      "codigo": "T9",
+      "nombre": "Macroeconomía",
+      "semestre": 3,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 222,
+    "fields": {
+      "codigo": "U1",
+      "nombre": "Costos y Presupuestos",
+      "semestre": 3,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 223,
+    "fields": {
+      "codigo": "Q3A",
+      "nombre": "Matemática Financiera",
+      "semestre": 3,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 224,
+    "fields": {
+      "codigo": "U2",
+      "nombre": "Investigación de Mercados",
+      "semestre": 3,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 225,
+    "fields": {
+      "codigo": "U3",
+      "nombre": "Gestión del Talento Humano",
+      "semestre": 3,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 226,
+    "fields": {
+      "codigo": "C7DA",
+      "nombre": "Inglés IV",
+      "semestre": 4,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 227,
+    "fields": {
+      "codigo": "U4",
+      "nombre": "Administración Financiera",
+      "semestre": 4,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 228,
+    "fields": {
+      "codigo": "P1A",
+      "nombre": "Derecho Empresarial",
+      "semestre": 4,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 229,
+    "fields": {
+      "codigo": "U5",
+      "nombre": "Estadística Inferencial",
+      "semestre": 4,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 230,
+    "fields": {
+      "codigo": "U6",
+      "nombre": "Comportamiento Organizacional",
+      "semestre": 4,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 231,
+    "fields": {
+      "codigo": "U7",
+      "nombre": "Gestión de Producción y Operaciones",
+      "semestre": 4,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 232,
+    "fields": {
+      "codigo": "D7DA",
+      "nombre": "Inglés V",
+      "semestre": 5,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 233,
+    "fields": {
+      "codigo": "U8",
+      "nombre": "Gerencia de Mercadeo",
+      "semestre": 5,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 234,
+    "fields": {
+      "codigo": "R7A",
+      "nombre": "Formulación y Evaluación de Proyectos",
+      "semestre": 5,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 235,
+    "fields": {
+      "codigo": "U9",
+      "nombre": "Gerencia Financiera",
+      "semestre": 5,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 236,
+    "fields": {
+      "codigo": "V1",
+      "nombre": "Gestión Estratégica",
+      "semestre": 5,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 237,
+    "fields": {
+      "codigo": "E2DA",
+      "nombre": "Electiva I",
+      "semestre": 5,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 238,
+    "fields": {
+      "codigo": "V2",
+      "nombre": "Comercio Internacional",
+      "semestre": 6,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 239,
+    "fields": {
+      "codigo": "S6A",
+      "nombre": "Emprendimiento e Innovación",
+      "semestre": 6,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 240,
+    "fields": {
+      "codigo": "V3",
+      "nombre": "Gerencia del Talento Humano",
+      "semestre": 6,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 241,
+    "fields": {
+      "codigo": "Q5A",
+      "nombre": "Sistemas de Información Gerencial",
+      "semestre": 6,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 242,
+    "fields": {
+      "codigo": "V4",
+      "nombre": "Investigación de Operaciones",
+      "semestre": 6,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 243,
+    "fields": {
+      "codigo": "E8DA",
+      "nombre": "Electiva II",
+      "semestre": 6,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 244,
+    "fields": {
+      "codigo": "V5",
+      "nombre": "Planeación Estratégica",
+      "semestre": 7,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 245,
+    "fields": {
+      "codigo": "V6",
+      "nombre": "Gestión de Calidad",
+      "semestre": 7,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 246,
+    "fields": {
+      "codigo": "V7",
+      "nombre": "Logística y Cadena de Suministro",
+      "semestre": 7,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 247,
+    "fields": {
+      "codigo": "V8",
+      "nombre": "Responsabilidad Social Empresarial",
+      "semestre": 7,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 248,
+    "fields": {
+      "codigo": "V9",
+      "nombre": "Investigación Empresarial",
+      "semestre": 7,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 249,
+    "fields": {
+      "codigo": "S5A",
+      "nombre": "Práctica Empresarial I",
+      "semestre": 7,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 250,
+    "fields": {
+      "codigo": "W1",
+      "nombre": "Alta Gerencia",
+      "semestre": 8,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 251,
+    "fields": {
+      "codigo": "S2A",
+      "nombre": "Consultoría Empresarial",
+      "semestre": 8,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 252,
+    "fields": {
+      "codigo": "W2",
+      "nombre": "Seminario de Actualización Administrativa",
+      "semestre": 8,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 253,
+    "fields": {
+      "codigo": "S8A",
+      "nombre": "Optativa",
+      "semestre": 8,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 254,
+    "fields": {
+      "codigo": "O7A",
+      "nombre": "Trabajo de Grado",
+      "semestre": 8,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 255,
+    "fields": {
+      "codigo": "S9A",
+      "nombre": "Práctica Empresarial II",
+      "semestre": 8,
+      "carrera": "administracion"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 256,
+    "fields": {
+      "codigo": "W3",
+      "nombre": "Biología Celular y Molecular",
+      "semestre": 1,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 257,
+    "fields": {
+      "codigo": "W4",
+      "nombre": "Química General y Orgánica",
+      "semestre": 1,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 258,
+    "fields": {
+      "codigo": "W5",
+      "nombre": "Introducción a la Enfermería",
+      "semestre": 1,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 259,
+    "fields": {
+      "codigo": "W6",
+      "nombre": "Morfofisiología I",
+      "semestre": 1,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 260,
+    "fields": {
+      "codigo": "A1DE",
+      "nombre": "Humanidades I",
+      "semestre": 1,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 261,
+    "fields": {
+      "codigo": "A9DE",
+      "nombre": "Inglés I",
+      "semestre": 1,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 262,
+    "fields": {
+      "codigo": "W7",
+      "nombre": "Microbiología y Parasitología",
+      "semestre": 2,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 263,
+    "fields": {
+      "codigo": "W8",
+      "nombre": "Bioquímica",
+      "semestre": 2,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 264,
+    "fields": {
+      "codigo": "W9",
+      "nombre": "Morfofisiología II",
+      "semestre": 2,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 265,
+    "fields": {
+      "codigo": "X1",
+      "nombre": "Fundamentos del Cuidado de Enfermería",
+      "semestre": 2,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 266,
+    "fields": {
+      "codigo": "A7DE",
+      "nombre": "Humanidades II",
+      "semestre": 2,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 267,
+    "fields": {
+      "codigo": "B6DE",
+      "nombre": "Inglés II",
+      "semestre": 2,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 268,
+    "fields": {
+      "codigo": "X2",
+      "nombre": "Farmacología",
+      "semestre": 3,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 269,
+    "fields": {
+      "codigo": "X3",
+      "nombre": "Patología General",
+      "semestre": 3,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 270,
+    "fields": {
+      "codigo": "X4",
+      "nombre": "Cuidado de Enfermería al Adulto",
+      "semestre": 3,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 271,
+    "fields": {
+      "codigo": "X5",
+      "nombre": "Nutrición y Dietética",
+      "semestre": 3,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 272,
+    "fields": {
+      "codigo": "X6",
+      "nombre": "Salud Pública",
+      "semestre": 3,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 273,
+    "fields": {
+      "codigo": "C4DE",
+      "nombre": "Inglés III",
+      "semestre": 3,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 274,
+    "fields": {
+      "codigo": "X7",
+      "nombre": "Epidemiología",
+      "semestre": 4,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 275,
+    "fields": {
+      "codigo": "X8",
+      "nombre": "Cuidado Materno Perinatal",
+      "semestre": 4,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 276,
+    "fields": {
+      "codigo": "X9",
+      "nombre": "Cuidado de Enfermería en Salud Mental",
+      "semestre": 4,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 277,
+    "fields": {
+      "codigo": "Y1",
+      "nombre": "Enfermería Comunitaria",
+      "semestre": 4,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 278,
+    "fields": {
+      "codigo": "Y2",
+      "nombre": "Investigación en Salud I",
+      "semestre": 4,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 279,
+    "fields": {
+      "codigo": "C7DE",
+      "nombre": "Inglés IV",
+      "semestre": 4,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 280,
+    "fields": {
+      "codigo": "Y3",
+      "nombre": "Cuidado de Enfermería al Niño y Adolescente",
+      "semestre": 5,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 281,
+    "fields": {
+      "codigo": "Y4",
+      "nombre": "Cuidado al Paciente Crítico",
+      "semestre": 5,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 282,
+    "fields": {
+      "codigo": "Y5",
+      "nombre": "Gestión del Cuidado",
+      "semestre": 5,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 283,
+    "fields": {
+      "codigo": "Y6",
+      "nombre": "Bioética",
+      "semestre": 5,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 284,
+    "fields": {
+      "codigo": "Y7",
+      "nombre": "Investigación en Salud II",
+      "semestre": 5,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 285,
+    "fields": {
+      "codigo": "D7DE",
+      "nombre": "Inglés V",
+      "semestre": 5,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 286,
+    "fields": {
+      "codigo": "Y8",
+      "nombre": "Enfermería en Urgencias",
+      "semestre": 6,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 287,
+    "fields": {
+      "codigo": "Y9",
+      "nombre": "Gerencia en Servicios de Salud",
+      "semestre": 6,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 288,
+    "fields": {
+      "codigo": "Z1",
+      "nombre": "Seguridad del Paciente",
+      "semestre": 6,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 289,
+    "fields": {
+      "codigo": "Z2",
+      "nombre": "Salud Ocupacional",
+      "semestre": 6,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 290,
+    "fields": {
+      "codigo": "E2DE",
+      "nombre": "Electiva I",
+      "semestre": 6,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 291,
+    "fields": {
+      "codigo": "Z3",
+      "nombre": "Práctica Formativa I",
+      "semestre": 6,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 292,
+    "fields": {
+      "codigo": "Z4",
+      "nombre": "Enfermería Familiar y Comunitaria",
+      "semestre": 7,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 293,
+    "fields": {
+      "codigo": "Z5",
+      "nombre": "Auditoría en Salud",
+      "semestre": 7,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 294,
+    "fields": {
+      "codigo": "Z6",
+      "nombre": "Administración Hospitalaria",
+      "semestre": 7,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 295,
+    "fields": {
+      "codigo": "E8DE",
+      "nombre": "Electiva II",
+      "semestre": 7,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 296,
+    "fields": {
+      "codigo": "Z7",
+      "nombre": "Práctica Formativa II",
+      "semestre": 7,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 297,
+    "fields": {
+      "codigo": "Z8",
+      "nombre": "Práctica Profesional Integral",
+      "semestre": 8,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 298,
+    "fields": {
+      "codigo": "O7E",
+      "nombre": "Trabajo de Grado",
+      "semestre": 8,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 299,
+    "fields": {
+      "codigo": "Z9",
+      "nombre": "Seminario de Actualización en Enfermería",
+      "semestre": 8,
+      "carrera": "enfermeria"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 300,
+    "fields": {
+      "codigo": "F1DE",
+      "nombre": "Electiva III",
+      "semestre": 8,
+      "carrera": "enfermeria"
+    }
+  }
+]

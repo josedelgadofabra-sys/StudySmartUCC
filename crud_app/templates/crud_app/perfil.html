@@ -1,0 +1,48 @@
+{% extends 'crud_app/base.html' %}
+{% block content %}
+
+<div class="profile-wrapper">
+
+    <div class="profile-header">
+
+        <div class="avatar-circle">
+            {{ request.user.username|first|upper }}
+        </div>
+
+        <h2>{{ request.user.username }}</h2>
+        <p>{{ request.user.email }}</p>
+
+    </div>
+
+    <div class="profile-card">
+
+        <form method="POST">
+
+            {% csrf_token %}
+
+            <div class="input-group">
+                <label>Nombre</label>
+                {{ form.nombre }}
+            </div>
+
+            <div class="input-group">
+                <label>Carrera</label>
+                {{ form.carrera }}
+            </div>
+
+            <div class="input-group">
+                <label>Metas académicas</label>
+                {{ form.metas }}
+            </div>
+
+            <button class="save-profile-btn">
+                💾 Guardar cambios
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+{% endblock %}

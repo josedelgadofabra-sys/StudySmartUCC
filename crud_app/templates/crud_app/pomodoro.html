@@ -1,0 +1,154 @@
+{% extends 'crud_app/base.html' %}
+{% block content %}
+
+<div class="pomodoro-wrapper">
+
+    <div class="pomodoro-header">
+
+        <div class="pomodoro-icon">⏱</div>
+
+        <div>
+            <h1>Pomodoro Focus</h1>
+            <p>Concentra tu estudio y registra tus sesiones</p>
+        </div>
+
+    </div>
+
+    <div class="pomodoro-grid">
+
+        <!-- TIMER -->
+
+        <div class="timer-card">
+
+            <div class="circle-timer">
+
+                <svg width="280" height="280">
+
+                    <circle cx="140" cy="140" r="120"></circle>
+
+                    <circle id="progress"
+                            cx="140"
+                            cy="140"
+                            r="120"></circle>
+
+                </svg>
+
+                <div class="timer-text">
+                    <h2 id="time">25:00</h2>
+                    <p>Modo concentración</p>
+                </div>
+
+            </div>
+
+            <div class="timer-controls">
+
+                <button onclick="startTimer()">▶</button>
+                <button onclick="pauseTimer()">⏸</button>
+                <button onclick="resetTimer()">↺</button>
+
+            </div>
+
+        </div>
+
+        <!-- FORM -->
+
+        <div class="session-card">
+
+            <h3>Registrar sesión</h3>
+
+            <form method="POST">
+                {% csrf_token %}
+
+                <label>Materia</label>
+                {{ form.materia }}
+
+                <label>Minutos</label>
+                {{ form.minutos }}
+
+                <button class="save-session">
+                    Guardar sesión
+                </button>
+
+            </form>
+
+        </div>
+
+    </div>
+
+</div>
+
+<script>
+
+let total = 1500;
+let current = total;
+let timer = null;
+
+const time = document.getElementById("time");
+const progress =
+document.getElementById("progress");
+
+const radius = 2*Math.PI*120;
+
+progress.style.strokeDasharray = radius;
+
+function update(){
+
+let min =
+Math.floor(current/60);
+
+let sec =
+current%60;
+
+time.innerHTML =
+`${String(min).padStart(2,'0')}:${String(sec).padStart(2,'0')}`;
+
+progress.style.strokeDashoffset =
+radius-(current/total)*radius;
+
+}
+
+function startTimer(){
+
+if(timer) return;
+
+timer=setInterval(()=>{
+
+if(current>0){
+
+current--;
+update();
+
+}else{
+
+clearInterval(timer);
+timer=null;
+
+alert("Sesión completada 🎉");
+
+}
+
+},1000);
+
+}
+
+function pauseTimer(){
+
+clearInterval(timer);
+timer=null;
+
+}
+
+function resetTimer(){
+
+clearInterval(timer);
+timer=null;
+current=total;
+update();
+
+}
+
+update();
+
+</script>
+
+{% endblock %}

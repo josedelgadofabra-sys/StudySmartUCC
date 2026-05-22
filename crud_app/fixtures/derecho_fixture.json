@@ -1,0 +1,602 @@
+[
+  {
+    "model": "crud_app.materiabase",
+    "pk": 51,
+    "fields": {
+      "codigo": "F6",
+      "nombre": "Aspectos Psicológicos del Comportamiento Humano",
+      "semestre": 1,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 52,
+    "fields": {
+      "codigo": "F7",
+      "nombre": "Derecho Civil Personas",
+      "semestre": 1,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 53,
+    "fields": {
+      "codigo": "F8",
+      "nombre": "Pensamiento Político",
+      "semestre": 1,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 54,
+    "fields": {
+      "codigo": "F9",
+      "nombre": "Teoría de la Constitución y del Estado",
+      "semestre": 1,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 55,
+    "fields": {
+      "codigo": "G1",
+      "nombre": "Introducción al Derecho",
+      "semestre": 1,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 56,
+    "fields": {
+      "codigo": "G2",
+      "nombre": "Epistemología de las Ciencias Sociales",
+      "semestre": 2,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 57,
+    "fields": {
+      "codigo": "G3",
+      "nombre": "Derecho Civil Bienes",
+      "semestre": 2,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 58,
+    "fields": {
+      "codigo": "G4",
+      "nombre": "Derecho Constitucional",
+      "semestre": 2,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 59,
+    "fields": {
+      "codigo": "G5",
+      "nombre": "Lógica, Interpretación y Argumentación Jurídica",
+      "semestre": 2,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 60,
+    "fields": {
+      "codigo": "G6",
+      "nombre": "Derechos Humanos y Derecho Internacional Humanitario",
+      "semestre": 3,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 61,
+    "fields": {
+      "codigo": "G7",
+      "nombre": "Sociología Jurídica",
+      "semestre": 3,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 62,
+    "fields": {
+      "codigo": "G8",
+      "nombre": "Derecho Civil de las Obligaciones",
+      "semestre": 3,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 63,
+    "fields": {
+      "codigo": "G9",
+      "nombre": "Derecho Penal General",
+      "semestre": 3,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 64,
+    "fields": {
+      "codigo": "H1",
+      "nombre": "Teoría General del Proceso",
+      "semestre": 3,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 65,
+    "fields": {
+      "codigo": "H2",
+      "nombre": "Deontología Jurídica",
+      "semestre": 4,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 66,
+    "fields": {
+      "codigo": "H3",
+      "nombre": "Contratación Civil y Mercantil",
+      "semestre": 4,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 67,
+    "fields": {
+      "codigo": "H4",
+      "nombre": "Derecho Probatorio",
+      "semestre": 4,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 68,
+    "fields": {
+      "codigo": "H5",
+      "nombre": "Derecho Penal Especial",
+      "semestre": 4,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 69,
+    "fields": {
+      "codigo": "H6",
+      "nombre": "Métodos de Resolución de Conflictos",
+      "semestre": 4,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 70,
+    "fields": {
+      "codigo": "H7",
+      "nombre": "Diversidad e Inclusión Social",
+      "semestre": 5,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 71,
+    "fields": {
+      "codigo": "H8",
+      "nombre": "Derecho Procesal Constitucional",
+      "semestre": 5,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 72,
+    "fields": {
+      "codigo": "H9",
+      "nombre": "Derecho de Familia, Infancia y Adolescencia",
+      "semestre": 5,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 73,
+    "fields": {
+      "codigo": "I1",
+      "nombre": "Derecho Laboral Individual",
+      "semestre": 5,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 74,
+    "fields": {
+      "codigo": "I2",
+      "nombre": "Derecho Procesal Civil",
+      "semestre": 5,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 75,
+    "fields": {
+      "codigo": "I3",
+      "nombre": "Estrategias de Litigio y Oralidad",
+      "semestre": 5,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 76,
+    "fields": {
+      "codigo": "I4",
+      "nombre": "Títulos Valores",
+      "semestre": 6,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 77,
+    "fields": {
+      "codigo": "I5",
+      "nombre": "Derecho Administrativo",
+      "semestre": 6,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 78,
+    "fields": {
+      "codigo": "I6",
+      "nombre": "Derecho Laboral Colectivo",
+      "semestre": 6,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 79,
+    "fields": {
+      "codigo": "I7",
+      "nombre": "Seguridad Social",
+      "semestre": 6,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 80,
+    "fields": {
+      "codigo": "I8",
+      "nombre": "Derecho Internacional Público",
+      "semestre": 6,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 81,
+    "fields": {
+      "codigo": "I9",
+      "nombre": "Derecho Procesal Penal",
+      "semestre": 6,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 82,
+    "fields": {
+      "codigo": "J1",
+      "nombre": "Consultorio Jurídico I",
+      "semestre": 6,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 83,
+    "fields": {
+      "codigo": "J2",
+      "nombre": "Economía del Sector Público",
+      "semestre": 7,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 84,
+    "fields": {
+      "codigo": "J3",
+      "nombre": "Derecho Comercial y de las Sociedades",
+      "semestre": 7,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 85,
+    "fields": {
+      "codigo": "J4",
+      "nombre": "Derecho Procesal Administrativo",
+      "semestre": 7,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 86,
+    "fields": {
+      "codigo": "J5",
+      "nombre": "Derecho Procesal Laboral",
+      "semestre": 7,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 87,
+    "fields": {
+      "codigo": "J6",
+      "nombre": "Investigación Socio-Jurídica",
+      "semestre": 7,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 88,
+    "fields": {
+      "codigo": "J7",
+      "nombre": "Consultorio Jurídico II",
+      "semestre": 7,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 89,
+    "fields": {
+      "codigo": "J8",
+      "nombre": "Problemas Sociales Contemporáneos",
+      "semestre": 8,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 90,
+    "fields": {
+      "codigo": "J9",
+      "nombre": "Sucesiones",
+      "semestre": 8,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 91,
+    "fields": {
+      "codigo": "K1",
+      "nombre": "Derecho Digital",
+      "semestre": 8,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 92,
+    "fields": {
+      "codigo": "K2",
+      "nombre": "Filosofía del Derecho",
+      "semestre": 8,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 93,
+    "fields": {
+      "codigo": "K3",
+      "nombre": "Consultorio Jurídico III",
+      "semestre": 8,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 94,
+    "fields": {
+      "codigo": "K4",
+      "nombre": "Derecho Cooperativo",
+      "semestre": 9,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 95,
+    "fields": {
+      "codigo": "K5",
+      "nombre": "Derecho Ambiental y Desarrollo Sostenible",
+      "semestre": 9,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 96,
+    "fields": {
+      "codigo": "K6",
+      "nombre": "Dinámica Sociocultural Colombiana",
+      "semestre": 9,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 97,
+    "fields": {
+      "codigo": "K7",
+      "nombre": "Consultorio Jurídico IV",
+      "semestre": 9,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 98,
+    "fields": {
+      "codigo": "A9D",
+      "nombre": "Inglés I",
+      "semestre": 1,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 99,
+    "fields": {
+      "codigo": "A1D",
+      "nombre": "Humanidades I (Lecto escritura)",
+      "semestre": 1,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 100,
+    "fields": {
+      "codigo": "B6D",
+      "nombre": "Inglés II",
+      "semestre": 2,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 101,
+    "fields": {
+      "codigo": "A7D",
+      "nombre": "Humanidades II (Lecto escritura)",
+      "semestre": 2,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 102,
+    "fields": {
+      "codigo": "C4D",
+      "nombre": "Inglés III",
+      "semestre": 3,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 103,
+    "fields": {
+      "codigo": "C7D",
+      "nombre": "Inglés IV",
+      "semestre": 4,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 104,
+    "fields": {
+      "codigo": "D7D",
+      "nombre": "Inglés V",
+      "semestre": 5,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 105,
+    "fields": {
+      "codigo": "E2D",
+      "nombre": "Electiva I",
+      "semestre": 7,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 106,
+    "fields": {
+      "codigo": "E9D",
+      "nombre": "Institucional",
+      "semestre": 8,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 107,
+    "fields": {
+      "codigo": "E8D",
+      "nombre": "Electiva II",
+      "semestre": 8,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 108,
+    "fields": {
+      "codigo": "F1D",
+      "nombre": "Electiva III",
+      "semestre": 9,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 109,
+    "fields": {
+      "codigo": "E6D",
+      "nombre": "Optativa I",
+      "semestre": 9,
+      "carrera": "derecho"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 110,
+    "fields": {
+      "codigo": "F3D",
+      "nombre": "Optativa II",
+      "semestre": 9,
+      "carrera": "derecho"
+    }
+  }
+]

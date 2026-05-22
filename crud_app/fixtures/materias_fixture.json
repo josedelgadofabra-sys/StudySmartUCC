@@ -1,0 +1,502 @@
+[
+  {
+    "model": "crud_app.materiabase",
+    "pk": 1,
+    "fields": {
+      "codigo": "A1",
+      "nombre": "Humanidades I (Lecto escritura)",
+      "semestre": 1,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 2,
+    "fields": {
+      "codigo": "A2",
+      "nombre": "Algoritmia",
+      "semestre": 1,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 3,
+    "fields": {
+      "codigo": "A3",
+      "nombre": "Pensamiento Sistémico y Prospectiva de la Ingeniería",
+      "semestre": 1,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 4,
+    "fields": {
+      "codigo": "A4",
+      "nombre": "Lógica Matemática",
+      "semestre": 1,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 5,
+    "fields": {
+      "codigo": "A5",
+      "nombre": "Álgebra Lineal",
+      "semestre": 1,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 6,
+    "fields": {
+      "codigo": "A6",
+      "nombre": "Programación Orientada a Objetos",
+      "semestre": 2,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 7,
+    "fields": {
+      "codigo": "A7",
+      "nombre": "Humanidades II (Lecto escritura)",
+      "semestre": 2,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 8,
+    "fields": {
+      "codigo": "A8",
+      "nombre": "Física Mecánica",
+      "semestre": 2,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 9,
+    "fields": {
+      "codigo": "A9",
+      "nombre": "Inglés I",
+      "semestre": 2,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 10,
+    "fields": {
+      "codigo": "B1",
+      "nombre": "Cálculo Diferencial",
+      "semestre": 2,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 11,
+    "fields": {
+      "codigo": "B2",
+      "nombre": "Cálculo Integral",
+      "semestre": 3,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 12,
+    "fields": {
+      "codigo": "B3",
+      "nombre": "Estructuras de Datos",
+      "semestre": 3,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 13,
+    "fields": {
+      "codigo": "B4",
+      "nombre": "Física Electricidad y Magnetismo",
+      "semestre": 3,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 14,
+    "fields": {
+      "codigo": "B5",
+      "nombre": "Autómatas y Lenguajes Formales",
+      "semestre": 3,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 15,
+    "fields": {
+      "codigo": "B6",
+      "nombre": "Inglés II",
+      "semestre": 3,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 16,
+    "fields": {
+      "codigo": "B7",
+      "nombre": "Probabilidad y Estadística",
+      "semestre": 3,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 17,
+    "fields": {
+      "codigo": "B8",
+      "nombre": "Cálculo Multivariado",
+      "semestre": 4,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 18,
+    "fields": {
+      "codigo": "B9",
+      "nombre": "Análisis Numérico",
+      "semestre": 4,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 19,
+    "fields": {
+      "codigo": "C1",
+      "nombre": "Ingeniería de Software",
+      "semestre": 4,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 20,
+    "fields": {
+      "codigo": "C2",
+      "nombre": "Gestión de la Información",
+      "semestre": 4,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 21,
+    "fields": {
+      "codigo": "C3",
+      "nombre": "Aspectos Administrativos, Económicos y Contables para la gestión de proyectos",
+      "semestre": 4,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 22,
+    "fields": {
+      "codigo": "C4",
+      "nombre": "Inglés III",
+      "semestre": 4,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 23,
+    "fields": {
+      "codigo": "C5",
+      "nombre": "Ecuaciones Diferenciales",
+      "semestre": 5,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 24,
+    "fields": {
+      "codigo": "C6",
+      "nombre": "Arquitectura de Plataformas Tecnológicas",
+      "semestre": 5,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 25,
+    "fields": {
+      "codigo": "C7",
+      "nombre": "Inglés IV",
+      "semestre": 5,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 26,
+    "fields": {
+      "codigo": "C8",
+      "nombre": "Web y Sistemas Móviles",
+      "semestre": 5,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 27,
+    "fields": {
+      "codigo": "C9",
+      "nombre": "Herramientas computacionales para interpretación y validación de resultados",
+      "semestre": 5,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 28,
+    "fields": {
+      "codigo": "D1",
+      "nombre": "Redes de computadores",
+      "semestre": 5,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 29,
+    "fields": {
+      "codigo": "D2",
+      "nombre": "Desarrollo Sostenible",
+      "semestre": 6,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 30,
+    "fields": {
+      "codigo": "D3",
+      "nombre": "Diseño Experiencia de Usuario",
+      "semestre": 6,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 31,
+    "fields": {
+      "codigo": "D4",
+      "nombre": "Analítica de Datos",
+      "semestre": 6,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 32,
+    "fields": {
+      "codigo": "D5",
+      "nombre": "Aplicaciones de la Inteligencia Artificial",
+      "semestre": 6,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 33,
+    "fields": {
+      "codigo": "D6",
+      "nombre": "Seguridad Informática",
+      "semestre": 6,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 34,
+    "fields": {
+      "codigo": "D7",
+      "nombre": "Inglés V",
+      "semestre": 6,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 35,
+    "fields": {
+      "codigo": "D8",
+      "nombre": "Formulación, Evaluación y Análisis de Factibilidad de Proyectos",
+      "semestre": 7,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 36,
+    "fields": {
+      "codigo": "D9",
+      "nombre": "Arquitectura y Modelamiento de Software",
+      "semestre": 7,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 37,
+    "fields": {
+      "codigo": "E1",
+      "nombre": "Internet de las cosas",
+      "semestre": 7,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 38,
+    "fields": {
+      "codigo": "E2",
+      "nombre": "Electiva I",
+      "semestre": 7,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 39,
+    "fields": {
+      "codigo": "E3",
+      "nombre": "Ideación, Emprendimiento y Desarrollo Tecnológico",
+      "semestre": 7,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 40,
+    "fields": {
+      "codigo": "E4",
+      "nombre": "Aspectos Legales y Deontológicos para Ingeniería",
+      "semestre": 7,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 41,
+    "fields": {
+      "codigo": "E5",
+      "nombre": "Construcción del Trabajo de Grado",
+      "semestre": 8,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 42,
+    "fields": {
+      "codigo": "E6",
+      "nombre": "Optativa I",
+      "semestre": 8,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 43,
+    "fields": {
+      "codigo": "E7",
+      "nombre": "Gobierno de TI",
+      "semestre": 8,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 44,
+    "fields": {
+      "codigo": "E8",
+      "nombre": "Electiva II",
+      "semestre": 8,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 45,
+    "fields": {
+      "codigo": "E9",
+      "nombre": "Institucional",
+      "semestre": 8,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 46,
+    "fields": {
+      "codigo": "F1",
+      "nombre": "Electiva III",
+      "semestre": 9,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 47,
+    "fields": {
+      "codigo": "F2",
+      "nombre": "Computación en la Nube",
+      "semestre": 9,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 48,
+    "fields": {
+      "codigo": "F3",
+      "nombre": "Optativa II",
+      "semestre": 9,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 49,
+    "fields": {
+      "codigo": "F4",
+      "nombre": "Arquitectura Empresarial de TI",
+      "semestre": 9,
+      "carrera": "sistemas"
+    }
+  },
+  {
+    "model": "crud_app.materiabase",
+    "pk": 50,
+    "fields": {
+      "codigo": "F5",
+      "nombre": "Aplicación Práctica del Trabajo de Grado",
+      "semestre": 9,
+      "carrera": "sistemas"
+    }
+  }
+]

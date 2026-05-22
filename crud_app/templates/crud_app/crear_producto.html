@@ -1,0 +1,14 @@
+<!-- crud_app/templates/crud_app/crear_producto.html -->
+{% extends 'crud_app/base.html' %}
+
+{% block content %}
+    <h2>Crear Nuevo Producto</h2>
+    <form method="post">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit" class="btn
+btn-success">Guardar</button>
+        <a href="{% url 'lista_productos' %}" class="btn
+btn-secondary">Cancelar</a>
+    </form>
+{% endblock %}

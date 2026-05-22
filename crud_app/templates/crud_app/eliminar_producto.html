@@ -1,0 +1,14 @@
+<!-- crud_app/templates/crud_app/eliminar_producto.html -->
+{% extends 'crud_app/base.html' %}
+
+{% block content %}
+    <h2>Eliminar Producto</h2>
+    <p>¿Estás seguro de que deseas eliminar "{{ producto.nombre }}"?</p>
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn
+btn-danger">Eliminar</button>
+        <a href="{% url 'lista_productos' %}" class="btn
+btn-secondary">Cancelar</a>
+    </form>
+{% endblock %}

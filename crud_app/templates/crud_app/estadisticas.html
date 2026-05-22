@@ -1,0 +1,94 @@
+{% extends 'crud_app/base.html' %}
+{% block content %}
+
+<div class="stats-wrapper">
+
+    <div class="stats-header">
+
+        <div class="stats-icon">📊</div>
+
+        <div>
+            <h1>Estadísticas</h1>
+            <p>Visualiza tu rendimiento académico</p>
+        </div>
+
+    </div>
+
+    <!-- resumen -->
+
+    <div class="stats-cards">
+
+        <div class="stat-card green">
+            <h2>{{ total_horas }}</h2>
+            <span>Horas estudiadas</span>
+        </div>
+
+        <div class="stat-card blue">
+            <h2>{{ rango.percentil }}%</h2>
+            <span>Percentil</span>
+        </div>
+
+        <div class="stat-card purple">
+            <h2>{{ tareas_por_estado|length }}</h2>
+            <span>Estados activos</span>
+        </div>
+
+    </div>
+
+    <!-- rango -->
+
+    <div class="rank-card">
+
+        <div class="rank-title">
+            {{ rango.titulo }}
+        </div>
+
+        <p>{{ rango.descripcion }}</p>
+
+        <div class="progress-bar">
+            <div class="progress-fill"
+                 style="width:{{ rango.percentil }}%">
+            </div>
+        </div>
+
+    </div>
+
+    <!-- materias -->
+
+    <div class="subjects-stats">
+
+        <h3>Tiempo por materia</h3>
+
+        {% for materia in horas_por_materia %}
+
+        <div class="subject-row">
+
+            <div class="subject-left">
+
+                <span class="dot"
+                      style="background:{{ materia.materia__color }}">
+                </span>
+
+                {{ materia.materia__nombre }}
+
+            </div>
+
+            <div class="subject-hours">
+
+                {{ materia.total|floatformat:0 }} min
+
+            </div>
+
+        </div>
+
+        {% empty %}
+
+        <p>No hay sesiones registradas</p>
+
+        {% endfor %}
+
+    </div>
+
+</div>
+
+{% endblock %}
